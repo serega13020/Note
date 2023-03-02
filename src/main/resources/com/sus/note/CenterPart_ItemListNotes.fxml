@@ -11,9 +11,9 @@
       <VBox prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
             <Label maxWidth="1.7976931348623157E308" text="Не завершенные" VBox.vgrow="ALWAYS" />
-            <VBox fx:id="VBox_NewItemNotesList" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="200.0" prefWidth="100.0" VBox.vgrow="ALWAYS" />
+            <VBox fx:id="uncompletedNotesList_VBox" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="200.0" prefWidth="100.0" VBox.vgrow="ALWAYS" />
             <Label maxWidth="1.7976931348623157E308" text="Завершенные" />
-            <VBox fx:id="VBox_NewItemNotesList1" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="200.0" prefWidth="100.0" />
+            <VBox fx:id="completedNotesList_VBox" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="200.0" prefWidth="100.0" />
             <Pane prefHeight="33.0" prefWidth="736.0">
                <children>
                   <Button layoutX="659.0" layoutY="4.0" mnemonicParsing="false" text="Создать" />
